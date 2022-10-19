@@ -1,0 +1,52 @@
+img {
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+div {
+  margin: 1em;
+  display: flex;
+}
+p {
+  width: 140px;
+}
+.col {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.size-s {
+  width: 30px;
+  height: 30px;
+}
+
+.size-m {
+  width: 60px;
+  height: 60px;
+}
+.size-l {
+  width: 120px;
+  height: 120px;
+}
+.size-xl {
+  width: 200px;
+  height: 200px;
+}
+
+.borderRadius-square {
+  background-color: rgba(153, 153, 153, 0.363);
+
+  border-radius: none;
+}
+.borderRadius-rounded {
+  background-color: #999;
+
+  border-radius: 8px;
+}
+.borderRadius-circle {
+  background-color: #999;
+  border-radius: 50%;
+}
